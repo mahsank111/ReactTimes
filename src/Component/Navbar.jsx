@@ -11,7 +11,7 @@ const Navbar = ({ setcategory }) => {
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
           <span className="badge bg-light text-success fs-5 border border-success">
-            ReactFeed Express
+            ReactTimes
           </span>
         </a>
         <button

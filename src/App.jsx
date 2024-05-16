@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Navbar from "./Component/Navbar";
-import NewsBoard from "./Component/NewsBoard";
+import NewsBoard from "./Component/NewsBoards";
 const App = () => {
   const [category, setcategory] = useState("general");
 
