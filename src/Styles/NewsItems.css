@@ -1,0 +1,51 @@
+/* .card-container {
+  width: 100%;
+  padding: 15px;
+}
+
+.card {
+  background-color: #333;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+} */
+
+.card {
+  background-color: #fff; /* Set card background color */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  overflow: hidden;
+  transition: box-shadow 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #f0f0f0; /* Set body background color */
+}
+
+body {
+  background-image: url('https://wallpapercave.com/wp/wp7847581.jpg'); /* Set background image */
+  background-size: cover; /* Cover the entire viewport */
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
