@@ -10,7 +10,7 @@ const NewsBoard = ({ category }) => {
     setLoading(true);
     setError(null);
 
-    let url = `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=${
+    let url = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${
       import.meta.env.VITE_APP_API_KEY
     }`;
 
